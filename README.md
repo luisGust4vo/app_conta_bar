@@ -1,16 +1,19 @@
-# conta_bar
+# Mestre dos Bares
 
-A new Flutter application.
+Aplicação desenvolvida com o objetivo de sanar as dificuldades na divisão dos gastos no bar, facilidade e praticidade na hora do seu lazer.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+*Calculo de Despesas de acordo com a quantidade de pessoas a mesa.
 
-A few resources to get you started if this is your first Flutter project:
+*Calculo de Despesas com a adição da porcentagem destinada aos serviços prestados pelo garçom.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+*Divisão de gastos igualitária.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*Visulalização de Despesa total (incluindo os adicionais de serviços prestados).
+
+*Visulalização de Despesa total (excluindo os adicionais de serviços prestados).
+
+*Visulalização de Despesa por pessoa (incluindo os adicionais de serviços prestados).
+
+*Visualização de Despesa destinada ao serviço prestado pelo garçom.
