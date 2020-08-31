@@ -6,14 +6,14 @@ Aplicação desenvolvida com o objetivo de sanar as dificuldades na divisão dos
 
 ### Calculo de Despesas de acordo com a quantidade de pessoas a mesa.
 
-*Calculo de Despesas com a adição da porcentagem destinada aos serviços prestados pelo garçom.
+### Calculo de Despesas com a adição da porcentagem destinada aos serviços prestados pelo garçom.
 
-*Divisão de gastos igualitária.
+### Divisão de gastos igualitária.
 
-*Visulalização de Despesa total (incluindo os adicionais de serviços prestados).
+### Visualização de Despesa total (incluindo os adicionais de serviços prestados).
 
-*Visulalização de Despesa total (excluindo os adicionais de serviços prestados).
+### Visulalização de Despesa total (excluindo os adicionais de serviços prestados).
 
-*Visulalização de Despesa por pessoa (incluindo os adicionais de serviços prestados).
+### Visulalização de Despesa por pessoa (incluindo os adicionais de serviços prestados).
 
-*Visualização de Despesa destinada ao serviço prestado pelo garçom.
+### Visualização de Despesa destinada ao serviço prestado pelo garçom.
