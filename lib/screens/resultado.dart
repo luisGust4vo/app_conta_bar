@@ -7,8 +7,9 @@ class ScreenResultado extends StatelessWidget {
 
   final double resultado;
   final double valor_porcentagem;
+  final double total;
 
-  ScreenResultado({ @required this.resultado, @required this.valor_porcentagem });
+  ScreenResultado({ @required this.resultado, @required this.valor_porcentagem, @required this.total });
 
   @override
   Widget build(BuildContext context) {
@@ -63,21 +64,7 @@ class ScreenResultado extends StatelessWidget {
                               child: Row(
                                 children: <Widget>[
                                   Text(
-                                    "Valor por pessoa:",
-                                    style: TextStyle(
-                                      color: Colors.blueGrey,
-                                      fontSize: 25,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Padding(
-                              padding: EdgeInsets.only(top: 0, bottom: 50, left: 30),
-                              child: Row(
-                                children: <Widget>[
-                                  Text(
-                                    "RS "+resultado.toString(),
+                                    "Valor total: \n"+"RS "+total.toString(),
                                     style: TextStyle(
                                       color: Colors.blueGrey,
                                       fontSize: 25,
@@ -91,7 +78,7 @@ class ScreenResultado extends StatelessWidget {
                               child: Row(
                                 children: <Widget>[
                                   Text(
-                                    "Porcentagem do Garçom:",
+                                    "Valor total + Serviços: \n"+"RS "+(total+valor_porcentagem).toString(),
                                     style: TextStyle(
                                       color: Colors.blueGrey,
                                       fontSize: 25,
@@ -101,14 +88,15 @@ class ScreenResultado extends StatelessWidget {
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsets.only(top: 0, bottom: 50, left: 30),
+                              padding: EdgeInsets.only(top: 10, bottom: 50),
                               child: Row(
                                 children: <Widget>[
                                   Text(
-                                    "RS "+valor_porcentagem.toString(),
+                                    "Valor por pessoa: \n"+"RS "+resultado.toString(),
                                     style: TextStyle(
                                       color: Colors.blueGrey,
                                       fontSize: 25,
+                                      fontWeight: FontWeight.bold,
                                     ),
                                   ),
                                 ],

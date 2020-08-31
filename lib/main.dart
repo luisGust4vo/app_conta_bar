@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                         child: Column(
                           children: <Widget>[
                             Padding(
-                              padding: EdgeInsets.only(top: 10, bottom: 10),
+                              padding: EdgeInsets.only(top: 10, bottom: 20, left: 20, right: 20),
                               child: Row(
                                 children: <Widget>[
                                   Expanded(
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsets.only(top: 30, bottom: 10),
+                              padding: EdgeInsets.only(top: 10, bottom: 20, left: 20, right: 20),
                               child: Row(
                                 children: <Widget>[
                                   Expanded(
@@ -113,11 +113,11 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsets.only(top: 30, bottom: 10),
+                              padding: EdgeInsets.only(top: 10, bottom: 20, left: 20, right: 20),
                               child: Row(
                                 children: <Widget>[
                                   Expanded(
-                                    child: _inputWithLabel(_tPorcentagem, TextInputType.number, "Porcentagem do Garçom"),
+                                    child: _inputWithLabel(_tPorcentagem, TextInputType.number, "Porcentagem do Garçom (%)"),
                                   ),
                                 ],
                               ),
@@ -174,11 +174,11 @@ class _HomePageState extends State<HomePage> {
       double pessoas = double.parse(_tPessoas.text);
       double porcentagem = double.parse(_tPorcentagem.text);
 
-      double valor_pessoa = total / pessoas;
       double valor_garcom = total*(porcentagem/100);
+      double valor_pessoa = (total+valor_garcom) / pessoas;
       
       Navigator.push(
-        context, MaterialPageRoute(builder: (context) => ScreenResultado(resultado: valor_pessoa, valor_porcentagem: valor_garcom))
+        context, MaterialPageRoute(builder: (context) => ScreenResultado(resultado: valor_pessoa, valor_porcentagem: valor_garcom, total: total,))
       );
     });
   }

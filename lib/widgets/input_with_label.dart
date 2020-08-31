@@ -21,7 +21,7 @@ class InputWithLabel extends StatelessWidget {
       decoration: InputDecoration(
         fillColor: Colors.white,
         labelText: this.field,
-        contentPadding: EdgeInsets.only(bottom: 40, left: 10),
+        contentPadding: EdgeInsets.only(bottom: 40, left: 30),
         labelStyle: TextStyle(
           fontFamily: "Poppins",
           fontSize: 20,
