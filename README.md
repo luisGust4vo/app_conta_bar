@@ -4,7 +4,7 @@ Aplicação desenvolvida com o objetivo de sanar as dificuldades na divisão dos
 
 ## Funcionalidades
 
-*Calculo de Despesas de acordo com a quantidade de pessoas a mesa.
+### Calculo de Despesas de acordo com a quantidade de pessoas a mesa.
 
 *Calculo de Despesas com a adição da porcentagem destinada aos serviços prestados pelo garçom.
 
