@@ -19,6 +19,6 @@ Aplicação desenvolvida com o objetivo de sanar as dificuldades na divisão dos
 #### Visualização de Despesa destinada ao serviço prestado pelo garçom.
 
 
-## Link para o Vídeo de Aprensentação
+## Link para o Vídeo de Apresentação
 
 https://youtu.be/4mgjijFnPgk
