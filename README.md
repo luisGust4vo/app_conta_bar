@@ -17,3 +17,8 @@ Aplicação desenvolvida com o objetivo de sanar as dificuldades na divisão dos
 #### Visulalização de Despesa por pessoa (incluindo os adicionais de serviços prestados).
 
 #### Visualização de Despesa destinada ao serviço prestado pelo garçom.
+
+
+## Link para o Vídeo de Aprensentação
+
+https://youtu.be/4mgjijFnPgk
