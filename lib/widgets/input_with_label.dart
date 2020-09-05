@@ -24,7 +24,7 @@ class InputWithLabel extends StatelessWidget {
         contentPadding: EdgeInsets.only(bottom: 40, left: 30),
         labelStyle: TextStyle(
           fontFamily: "Poppins",
-          fontSize: 20,
+          fontSize: 15,
           color: Colors.black,
         ),
         focusedBorder: OutlineInputBorder(

@@ -123,11 +123,11 @@ class _HomePageState extends State<HomePage> {
                               ),
                             ),
                             Padding(
-                              padding: EdgeInsets.only(top: 40, bottom: 10),
+                              padding: EdgeInsets.only(top: 80),
                               child: Row(
                                 children: <Widget>[
                                   Expanded(
-                                      child: _button()
+                                      child: _button(),
                                   ),
                                 ],
                               ),
